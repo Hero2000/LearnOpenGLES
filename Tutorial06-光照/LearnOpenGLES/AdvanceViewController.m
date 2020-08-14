@@ -2,8 +2,8 @@
 //  AdvanceViewController.m
 //  LearnOpenGLES
 //
-//  Created by 林伟池 on 16/3/25.
-//  Copyright © 2016年 林伟池. All rights reserved.
+//  Created by loyinglin on 16/3/25.
+//  Copyright © 2016年 loyinglin. All rights reserved.
 //
 
 #import "AdvanceViewController.h"
@@ -57,6 +57,7 @@
                                                          0.7f, // Green
                                                          0.7f, // Blue
                                                          1.0f);// Alpha
+    
     self.baseEffect.light0.position = GLKVector4Make(
                                                      1.0f,
                                                      1.0f,

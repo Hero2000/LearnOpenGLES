@@ -2,8 +2,8 @@
 //  LearnView.m
 //  LearnOpenGLES
 //
-//  Created by 林伟池 on 16/3/11.
-//  Copyright © 2016年 林伟池. All rights reserved.
+//  Created by loyinglin on 16/3/11.
+//  Copyright © 2016年 loyinglin. All rights reserved.
 //
 
 #import "LearnView.h"
@@ -212,7 +212,7 @@
     glGenFramebuffers(1, &buffer);
     self.myColorFrameBuffer = buffer;
     // 设置为当前 framebuffer
-    glBindFramebuffer(GL_FRAMEBUFFER, self.myColorRenderBuffer);
+    glBindFramebuffer(GL_FRAMEBUFFER, self.myColorFrameBuffer);
     // 将 _colorRenderBuffer 装配到 GL_COLOR_ATTACHMENT0 这个装配点上
     glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0,
                               GL_RENDERBUFFER, self.myColorRenderBuffer);
